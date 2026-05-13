@@ -10,3 +10,23 @@ body{
     font-family: arial;
     background-color: lightblue;
 }
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*alineacion en torno al cross axis*/
+    flex-wrap:  nowrap;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: black solid 3px;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    border: black dashed 2px;
+}
