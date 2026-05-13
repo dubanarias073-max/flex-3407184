@@ -1,0 +1,12 @@
+/*RESETEO DE ESTILOS NATIVOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS DE BODY*/
+body{
+    font-family: arial;
+    background-color: lightblue;
+}
